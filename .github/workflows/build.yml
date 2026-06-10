@@ -13,7 +13,6 @@ jobs:
     - uses: cachix/cachix-action@v14
       with:
         name: star122013
-        # If you chose signing key for write access
-        signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
+        signingKey: '${{ secrets.CACHIX_AUTH_TOKEN }}'
     - run: nix build . --extra-experimental-features "nix-command flakes"
     - run: echo OK
