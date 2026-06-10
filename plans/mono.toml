@@ -6,7 +6,7 @@ noCvSs = false
 exportGlyphNames = true
 
   [buildPlans.IosevkaMonoCustom.variants]
-  inherits = "ss08"
+  inherits = "ss14"
 
     [buildPlans.IosevkaMonoCustom.variants.design]
     zero = "tall-reverse-slashed"
@@ -17,7 +17,7 @@ exportGlyphNames = true
     capital-w = "straight-serifless"
     a = "single-storey-top-cut-serifless"
     g = "single-storey-top-cut"
-    l = "diagonal-tailed"
+    l = "tailed"
     v = "straight-serifless"
     w = "rounded-vertical-sides-serifless"
     x = "straight-serifless"
