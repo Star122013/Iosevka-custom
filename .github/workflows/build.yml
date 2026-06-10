@@ -19,5 +19,5 @@ jobs:
       - uses: cachix/cachix-action@v14
         with:
           name: star122013
-          signingKey: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
       - run: nix build --extra-experimental-features "nix-command flakes" --print-out-paths .#${{ matrix.font }} | tee /dev/stderr | cachix push star122013
