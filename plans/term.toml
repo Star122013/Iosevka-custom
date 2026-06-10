@@ -1,0 +1,78 @@
+[buildPlans.IosevkaTermCustom]
+family = "Iosevka Term Custom"
+spacing = "term"
+serifs = "sans"
+noCvSs = false
+exportGlyphNames = true
+
+  [buildPlans.IosevkaTermCustom.variants]
+  inherits = "ss08"
+
+    [buildPlans.IosevkaTermCustom.variants.design]
+    zero = "tall-reverse-slashed"
+    capital-a = "straight-serifless"
+    capital-k = "straight-serifless"
+    capital-n = "standard-serifless"
+    capital-v = "straight-serifless"
+    capital-w = "straight-serifless"
+    a = "single-storey-top-cut-serifless"
+    g = "single-storey-top-cut"
+    l = "diagonal-tailed"
+    v = "straight-serifless"
+    w = "rounded-vertical-sides-serifless"
+    x = "straight-serifless"
+    y = "straight-serifless"
+    z = "straight-serifless"
+    capital-eszet = "corner-serifless"
+    capital-lambda = "straight-serifless"
+    lig-neq = "slightly-slanted"
+    lig-equal-chain = "without-notch"
+    lig-double-arrow-bar = "without-notch"
+
+    [buildPlans.IosevkaTermCustom.variants.italic]
+    zero = "tall-reverse-slashed"
+    a = "single-storey-top-cut-serifless"
+    lig-neq = "slightly-slanted"
+    lig-equal-chain = "without-notch"
+    lig-double-arrow-bar = "without-notch"
+
+    [buildPlans.IosevkaTermCustom.variants.oblique]
+    zero = "tall-reverse-slashed"
+    a = "single-storey-top-cut-serifless"
+    lig-neq = "slightly-slanted"
+    lig-equal-chain = "without-notch"
+
+  [buildPlans.IosevkaTermCustom.ligations]
+  inherits = "clike"
+
+[buildPlans.IosevkaTermCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaTermCustom.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaTermCustom.widths.Condensed]
+shape = 500
+menu = 3
+css = "condensed"
+
+[buildPlans.IosevkaTermCustom.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaTermCustom.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaTermCustom.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
