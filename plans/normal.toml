@@ -1,46 +1,25 @@
+
 [buildPlans.IosevkaNormalCustom]
 family = "Iosevka Normal Custom"
 spacing = "normal"
 serifs = "sans"
-noCvSs = false
-exportGlyphNames = true
+noCvSs = true
+exportGlyphNames = false
 
   [buildPlans.IosevkaNormalCustom.variants]
-  inherits = "ss14"
+  inherits = "ss08"
 
     [buildPlans.IosevkaNormalCustom.variants.design]
-    zero = "tall-reverse-slashed"
-    capital-a = "straight-serifless"
-    capital-k = "straight-serifless"
-    capital-n = "standard-serifless"
-    capital-v = "straight-serifless"
-    capital-w = "straight-serifless"
-    a = "single-storey-top-cut-serifless"
+    zero = "tall-slashed"
+    a = "double-storey-serifless"
     g = "single-storey-top-cut"
-    l = "tailed"
-    v = "straight-serifless"
-    w = "rounded-vertical-sides-serifless"
-    x = "straight-serifless"
-    y = "straight-serifless"
-    z = "straight-serifless"
-    capital-eszet = "corner-serifless"
-    capital-lambda = "straight-serifless"
-    lig-neq = "slightly-slanted"
+    lig-neq = "more-slanted"
     lig-equal-chain = "without-notch"
-    lig-double-arrow-bar = "without-notch"
 
     [buildPlans.IosevkaNormalCustom.variants.italic]
-    zero = "tall-reverse-slashed"
-    a = "single-storey-top-cut-serifless"
-    lig-neq = "slightly-slanted"
-    lig-equal-chain = "without-notch"
-    lig-double-arrow-bar = "without-notch"
-
-    [buildPlans.IosevkaNormalCustom.variants.oblique]
-    zero = "tall-reverse-slashed"
-    a = "single-storey-top-cut-serifless"
-    lig-neq = "slightly-slanted"
-    lig-equal-chain = "without-notch"
+    zero = "tall-slashed"
+    a = "single-storey-serifless"
+    g = "single-storey-top-cut"
 
   [buildPlans.IosevkaNormalCustom.ligations]
   inherits = "clike"
@@ -55,16 +34,6 @@ shape = 700
 menu = 700
 css = 700
 
-[buildPlans.IosevkaNormalCustom.widths.Condensed]
-shape = 500
-menu = 3
-css = "condensed"
-
-[buildPlans.IosevkaNormalCustom.widths.Normal]
-shape = 600
-menu = 5
-css = "normal"
-
 [buildPlans.IosevkaNormalCustom.slopes.Upright]
 angle = 0
 shape = "upright"
@@ -76,3 +45,4 @@ angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
+
