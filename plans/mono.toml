@@ -12,6 +12,7 @@ exportGlyphNames = false
     zero = "tall-slashed"
     a = "double-storey-serifless"
     g = "single-storey-top-cut"
+    t = "narrow-bent-hook"
     lig-neq = "more-slanted"
     lig-equal-chain = "without-notch"
 
