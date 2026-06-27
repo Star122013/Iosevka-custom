@@ -2,6 +2,11 @@ name: "Build"
 on:
   pull_request:
   push:
+  workflow_run:
+    workflows: ["Update flake.lock"]
+    types:
+      - completed
+
 jobs:
   build:
     strategy:

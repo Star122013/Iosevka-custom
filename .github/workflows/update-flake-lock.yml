@@ -3,7 +3,7 @@ name: Update flake.lock
 on:
   workflow_dispatch:   # 手动触发
   schedule:
-    - cron: "0 6 * * 0"   # 每周日早上6点 UTC
+    - cron: "0 6 * * *"   # 每天早上6点 UTC
 
 jobs:
   update:
